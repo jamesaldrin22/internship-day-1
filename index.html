@@ -1,3 +1,136 @@
- <!DOCTYPE html>
- <h1>james aldrin</h1>
- </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jaims Aldrin Dcunja</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #ff69b4 0%, #39ff14 100%);
+            margin: 0;
+            padding: 0;
+            color: #22223b;
+        }
+        nav {
+            background: linear-gradient(90deg, #ff69b4 0%, #39ff14 100%);
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 12px rgba(255,105,180,0.10);
+        }
+        nav .logo {
+            font-size: 1.7rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #39ff14;
+            text-shadow: 1px 1px 4px #ff69b433;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s, background 0.2s;
+            padding: 0.4rem 1rem;
+            border-radius: 8px;
+        }
+        nav ul li a:hover {
+            color: #ff69b4;
+            background: #39ff1433;
+        }
+        .container {
+            max-width: 700px;
+            margin: 3rem auto;
+            background: linear-gradient(120deg, #fff 0%, #ff69b4 100%);
+            border-radius: 22px;
+            box-shadow: 0 6px 32px rgba(57,255,20,0.13);
+            padding: 2.5rem 2rem;
+            border: 2px solid #39ff1433;
+        }
+        h1 {
+            font-size: 2.7rem;
+            margin-bottom: 0.5rem;
+            color: #ff69b4;
+            text-shadow: 1px 2px 8px #39ff1433;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+            color: #22223b;
+        }
+        .socials {
+            display: flex;
+            gap: 1.2rem;
+            margin-top: 1.5rem;
+        }
+        .socials a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #ff69b4 0%, #39ff14 100%);
+            color: #fff;
+            font-size: 1.5rem;
+            text-decoration: none;
+            box-shadow: 0 2px 8px #ff69b433;
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+        }
+        .socials a:hover {
+            background: linear-gradient(135deg, #39ff14 0%, #ff69b4 100%);
+            color: #ff69b4;
+            transform: scale(1.1) rotate(-8deg);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.2rem 0.5rem;
+            }
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+    <!-- Font Awesome CDN for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <span class="logo">Jaims Aldrin</span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Jaims Aldrin Dcunja</h1>
+        <p>
+            I am doing my professional career in engineering at SNM Institute of Technology (SNMINT).<br>
+            I am pursuing BTech in Electronics and Communication.
+        </p>
+        <div class="socials">
+            <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <!-- Add your actual social links above -->
+        </div>
+    </div>
+</body>
+</html>
